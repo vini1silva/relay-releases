@@ -1,0 +1,6 @@
+:root{--bg:#0b0d12;--fg:#e6e8ee;--muted:#9aa1b0;--accent:#2563eb}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7f9;--fg:#11141a;--muted:#555c6b}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+h1{font-size:2rem;margin:0 0 8px}h2{font-size:1.15rem;margin-top:32px}
+a{color:var(--accent)}p,li{color:var(--fg)}.muted{color:var(--muted)}
